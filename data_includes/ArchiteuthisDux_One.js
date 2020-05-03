@@ -33,7 +33,7 @@ var defaults = [
         wordTime: 1000,
         wordPauseTime: 150
         },
-        DS, {randomOrder: false,
+        DS, {randomOrder: randomOrder: ['a','b','c','d'],,
         presentHorizontally: true,
         mode: 'speeded acceptability',
         display: 'in place',
@@ -41,7 +41,6 @@ var defaults = [
         wordTime: 250,
         wordPauseTime: 150,
         timeout: 4000,
-        hasCorrect: false,
         q: ''}
 ];
 
