@@ -23,8 +23,9 @@ var completionMessage = "Mulţumim pentru participare!"
 ;
 var completionErrorMessage = "Eroare în trimiterea răspunsurilor dumneavoastră către server."; 
 
-// Controller settings.
-// Parameter settings taken from Staub 2009
+
+
+
 var defaults = [
      "EPDashedSentence", {
         mode: 'speeded acceptability',
@@ -35,13 +36,7 @@ var defaults = [
         },
         DS, {randomOrder: ['a','b','c','d'],
         presentHorizontally: true,
-        mode: 'speeded acceptability',
-        display: 'in place',
-        blankText: '+',
-        wordTime: 250,
-        wordPauseTime: 150,
-        timeout: 4000,
-        q: ''}
+         timeout: 4000}
 ];
 
 // Add breaks every 24 items
